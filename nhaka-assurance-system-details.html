@@ -36,16 +36,16 @@
       <div class="container">
 
         <div class="logo">
-          <a href="index.html"><img src="assets/img//logo.png" alt="logo"></a>
+          <!-- <a href="index.html"><img src="assets/img//logo.png" alt="logo"></a> -->
         </div>
 
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="index.html" class="smoothScroll">Home</a></li>
-          <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          <li><a href="index.html"   onclick="redirect('index.html')"  class="smoothScroll">Home</a></li>
+          <li><a href="#about"  onclick="redirect('index.html')"  class="smoothScroll">About</a></li>
+          <li><a href="#portfolio"   onclick="redirect('index.html')"  class="smoothScroll">Portfolio</a></li>
+          <li><a href="#contact"  onclick="redirect('index.html')"   class="smoothScroll">Contact</a></li>
         </ul>
 
       </div>
@@ -62,7 +62,7 @@
           <h2>Portfolio Details</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
             <li>Portfolio Details</li>
           </ol>
         </div>
@@ -85,10 +85,10 @@
           <div class="portfolio-info">
             <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: Web design</li>
+              <li><strong>Category</strong>: SaaS Platform</li>
               <li><strong>Client</strong>: Nhaka Life Assurance</li>
               <!-- <li><strong>Project date</strong>: 01 Septe, 2020</li> -->
-              <li><strong>Project URL</strong>: <a href="#">www.test.mynhaka.co.zw</a></li>
+              <li><strong>Project URL</strong>: <a href="http://test.mynhaka.co.zw/">Nhaka Life Assurance</a></li>
             </ul>
           </div>
 
@@ -98,6 +98,30 @@
           <h2>My Nhaka Dashboard</h2>
           <p>
           My Nhaka Dashboard, is a simple platform intended to automate business processes for Nhaka Life Assurance. This platform has modules like business writing, claims, and accounting.
+
+
+          </p>
+
+          <p>
+            On the development of this software, I was the key frontend developer. I used Laravel together with Vue.js to consume web services provided on Swagger Online rest API client.My main responsibilities on this project spun from Simple CRUD operations to  development of complex multiple data capturing pages that required the use of Vue.js components. Just to give a brief list of major tasks I performed:
+            <ul>
+
+              <li>
+                  Implemented routes security protocols,
+
+
+              </li>
+              <li>
+                Implemented live validation rules through the system,
+                
+
+            </li>
+            <li>
+               Designed generic functions that consumed Web services.
+              
+
+          </li>
+            </ul>
           </p>
         </div>
       </div>
@@ -108,7 +132,7 @@
   <!-- ======= Footer ======= -->
   <div id="footer" class="text-center">
     <div class="container">
-      <div class="socials-media text-center">
+     <!-- <div class="socials-media text-center">
 
         <ul class="list-unstyled">
           <li><a href="#"><i class="ion-social-facebook"></i></a></li>
@@ -119,7 +143,7 @@
           <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
         </ul>
 
-      </div>
+      </div>  -->
 
       <p>&copy; Copyrights. All rights reserved.</p>
 

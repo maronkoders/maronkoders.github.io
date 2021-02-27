@@ -12,8 +12,6 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
 
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +32,7 @@
       <div class="container">
 
         <div class="logo">
-          <a href="index.html"><img src="assets/img//logo.png" alt="logo"></a>
+          <!-- <a href="index.html"><img src="assets/img//logo.png" alt="logo"></a> -->
         </div>
 
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
@@ -117,7 +115,7 @@
 
          
             <span>MOBILE APPS</span>
-            <p class="separator">I have designed few mobile applications using Kotlin, Java and Flutter.I yet to future develop this skill as I want to develop personal projects. </p>
+            <p class="separator">I have designed few mobile applications using Kotlin, Java and Flutter.I'm yet to develop this skill as I want to develop personal projects. </p>
 
           </div>
 
@@ -132,7 +130,9 @@
 
       
             <span>DB designing</span>
-            <p class="separator">A skill  I have built as all systems are built </p>
+            <p class="separator">As a Database Designer I have done the designs and  DB development for different application such as Online Job Application, School management System, Online Food application and Health care application.
+             
+            </p>
 
           </div>
 
@@ -177,24 +177,24 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/schoolsystem.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/vigour.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>School Management System</h4>
+              <h4>Vigour Health Care  Platform</h4>
               <p>SaaS</p>
-              <a href="assets/img/portfolio/schoolsystem.png" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="school-management-system-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="assets/img/portfolio/vigour.png" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="vigour-platform.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/tdashboard.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Thistle Booking</h4>
               <p>SaaS</p>
               <a href="assets/img/portfolio/tdashboard.png" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="thistle-booking.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/orchidlogin.png" class="img-fluid" alt="">
@@ -266,7 +266,7 @@
             </div>
 
             <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form action="https://formspree.io/f/xaylzlvg" method="POST"  role="form" class="php-email-form">
                 <div class="row">
 
                   <div class="col-lg-6">
@@ -320,7 +320,7 @@
   <!-- ======= Footer ======= -->
   <div id="footer" class="text-center">
     <div class="container">
-      <div class="socials-media text-center">
+      <!-- <div class="socials-media text-center">
 
         <ul class="list-unstyled">
           <li><a href="#"><i class="ion-social-facebook"></i></a></li>
@@ -331,7 +331,7 @@
           <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
         </ul>
 
-      </div>
+      </div> -->
 
       <p>&copy; Copyrights Maronkoders. All rights reserved.</p>
 
@@ -353,6 +353,18 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+      $(document).ready(function()
+      {
+
+              if(localStorage.getItem("secondVal")==null)
+              {
+
+              }else{
+                window.location.href+"#"+localStorage.getItem("secondVal");
+              }
+      })
+  </script>
 
 </body>
 

@@ -28,6 +28,26 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
+<script>
+
+    function redirect()
+    {
+        
+        
+       
+
+      window.open(arguments[0],"_top")
+        // var cuurentLink = window.location.href.split("/");
+        // var withOutCurrent = cuurentLink.pop();
+
+        // console.log("the current", withOutCurrent);
+        // return (arguments[0]=="index.html")?
+        //     window.open(arguments[0],"_top"):
+        //         window.open(cuurentLink+arguments[0])
+
+        //     ;
+    }
+</script>
 <body>
 
   <!-- ======= Navbar ======= -->
@@ -42,10 +62,10 @@
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="index.html"   onclick="redirect('index.html')"  class="smoothScroll">Home</a></li>
-          <li><a href="#about"  onclick="redirect('index.html')"  class="smoothScroll">About</a></li>
+          <li><a href="javascript:void(0)" onclick="redirect('index.html')" class="smoothScroll">Home</a></li>
+          <li><a href="#about"   onclick="redirect('index.html')" class="smoothScroll">About</a></li>
           <li><a href="#portfolio"  onclick="redirect('index.html')"  class="smoothScroll">Portfolio</a></li>
-          <li><a href="#contact"  onclick="redirect('index.html')"  class="smoothScroll">Contact</a></li>
+          <li><a href="#contact"   onclick="redirect('index.html')" class="smoothScroll">Contact</a></li>
         </ul>
 
       </div>
@@ -77,47 +97,50 @@
         <div class="portfolio-details-container">
 
           <div class="owl-carousel portfolio-details-carousel">
-            <img src="assets/img/portfolio/orchid2.png" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/orchid3.png" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/orchid4.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/v2.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/v3.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/v4.png" class="img-fluid" alt="">
           </div>
 
           <div class="portfolio-info">
             <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: Web SaaS</li>
-              <li><strong>Client</strong>: Orchid Funeral </li>
+              <li><strong>Category</strong>: SaaS Developer</li>
+              <li><strong>Client</strong>: Vigour Health Care Platform</li>
               <!-- <li><strong>Project date</strong>: 01 Septe, 2020</li> -->
-              <li><strong>Project URL</strong>: <a href="https://assure.orchidfuneral.com/">Orchid Funeral System</li>
+              <li><strong>Project URL</strong>: <a href="http://vigour.allsolutionsoftwares.co.zw"> Vigour Health Care Platform</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>Assure Orchid Funeral</h2>
+          <h2>Vigour</h2>
           <p>
-                Assure Orchid Funeral is a proprietary software developed for a local firm. On the software, I handled the frontend aspect from the designing of the Vue templates and the hitting  of the back end APIs using Axios Http Library.
-
-              This Software, comprises of four major modules which are;
-
-
+      This is one of my person projects I develop in a bid to improve our society and digitize most of business operations in the nation.Its main functionalities include;
           </p>
 
-          <ul>
-            <li>
-              Business Writing - This is the first module we developed which involves the capturing of company's clients details and thereby allocate clients policies as per their chosing.
+          <p>
+         
+            <ul>
+
+              <li>
+               Registration of service providers in this case, medical practitioners such as doctors, dentists etc.
+
+
+              </li>
+              <li>
+              Online booking of appointments,
+                
+
             </li>
             <li>
-              Admin Operations - A module that is only accessed by administrator.Under this part, its where administrators get to set all the system work flow, from registration of users to the creation system drivers  and other basic configurations of the system.
-            </li>
-            <li>
-              Premium Accounting - This part of the system deals with all system cash flow issues, from receipting, transactions and approved funds .
-            </li>
-            <li>
-              Claims Management - All lodged in claims are found under this part of the system.They are processed from this end till they are approved and paid to the clients.
-            </li>
-          </ul>
+               Online scheduling done by service providers.
+              
+
+          </li>
+            </ul>
+          </p>
         </div>
       </div>
     </section><!-- End Portfolio Details Section -->
